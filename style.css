@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gabarito", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 20px;
+    padding: 20px;
+    height: 25px;
+}
+.navbar__s1-title{
+    color: #A435F0;
+}
+.navbar__s2{
+    border: solid black 2px;
+    border-radius: 30px;
+    width: 60%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar__s2 i{
+    padding-left: 10px;
+}
+.navbar__s2 input{
+    border: none;
+    width: 90%;
+    font-size: 15px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    padding: 10px;
+}
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.section-image img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+}
+.recommended p{
+    padding: 10px;
+}
+.course-card{
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+}
+.course-card img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.topic{
+    padding: 10px;
+}
+.topic__container{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.topic__container p{
+    padding: 10px;
+    border: solid grey 1px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular__title, .popular__sub-title{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+.footer__one{
+    display: flex;
+    padding: 50px;
+}
+.footer__one p{
+    padding: 10px;
+}
+.footer__two{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
