@@ -44,6 +44,9 @@
     display: flex;
     gap: 10px;
 }
+.section__s4{
+    display: none;
+}
 .categories{
     display: flex;
     justify-content: space-around;
@@ -100,9 +103,9 @@
     padding: 10px;
 }
 .course-card{
-    padding: 10px;
-    height: 400px;
-    width: 300px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 .course-card img{
     display: flex;
@@ -126,8 +129,8 @@
     padding: 10px;
     border: solid grey 1px;
     margin: 10px;
-    flex-grow: 1;
-    flex-basis: 25%;
+    flex-grow: 3;
+    flex-basis: 23%;
 }
 .popular__title, .popular__sub-title{
     padding: 10px;
@@ -171,4 +174,27 @@
 }
 .my-learning:hover .my-learning__popup{
     display: block;
+}
+
+/* Media Querru*/
+
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 10px;
+    }
+    .section__s4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .categories, .navbar__s3{
+        display: none;
+    }
+    .course-card{
+        width: 40%;
+    }
+    .section__s4{
+        display: block;
+    }
 }
