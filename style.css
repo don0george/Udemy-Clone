@@ -55,7 +55,13 @@
     color: white;
     padding: 10px;
     border-radius: 30px;
-    
+    border: solid #A435F0 1px; 
+    transition-duration: 1s; 
+}
+.categories p:hover{
+    background-color: transparent;
+    border: solid #A435F0 1px;
+    color: #A435F0; 
 }
 .section-image img{
     width: 100%;
@@ -71,6 +77,21 @@
     width: 35%;
     top: 10%;
     left: 10%;
+    opacity: 0;
+    animation: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
 }
 .recommended{
     padding: 10px;
